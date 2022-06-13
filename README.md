@@ -1,13 +1,13 @@
 # hse22_project
 
 # Геномы
-|Название вида|Кол-во последовательностей|
-|-|-|
-|Acinetobacter indicus|3|
-|Acinetobacter schindleri|9|
-|Acinetobacter soli|2|
-|Acinetobacter bouvetii|1|
-|Acinetobacter lwoffii|6|
+|Название вида|Кол-во последовательностей|Суммарная длина|Кол-во участков с Z-score >= 500
+|-|-|-|-|
+|Acinetobacter indicus|3|3084932|7122|
+|Acinetobacter schindleri|9|3337186|4629|
+|Acinetobacter soli|2|3520755|8230|
+|Acinetobacter bouvetii|1|3399245|14090|
+|Acinetobacter lwoffii|6|3528101|5541|
 
 # Гистограмма всех гомологов
 ![image](https://user-images.githubusercontent.com/22128700/173399044-41dde80f-2433-46c6-a2f2-73a581607bd3.png)
