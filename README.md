@@ -1,5 +1,33 @@
 # hse22_project
 
+# Геномы
+|Название вида|Кол-во последовательностей|
+|-|-|
+|Acinetobacter indicus|3|
+|Acinetobacter schindleri|9|
+|Acinetobacter soli|2|
+|Acinetobacter bouvetii|1|
+|Acinetobacter lwoffii|6|
+
+# Гистограмма всех гомологов
+![image](https://user-images.githubusercontent.com/22128700/173399044-41dde80f-2433-46c6-a2f2-73a581607bd3.png)
+
+
+# Кластеры
+|Номер кластера|Кол-во геномов|Функция генов|Расположение относительно гена|Средний Z-score|
+|-|-|-|-|-|
+|0|5|30S ribosomal protein S11	| В начале гена и перед ним |2195.65|
+|1|5|30S ribosomal protein S18	| Перед геном |2779.55|
+|2|5|excinuclease ABC subunit UvrA	| В начале гена|3136.9|
+|3|5|excinuclease ABC subunit UvrC	| В начале гена|1720.18|
+|4|5|50S ribosomal protein L1	| Перед геном |3259.12|
+|5|5|ketol-acid reductoisomerase	| В начале гена|20182.12|
+|6|5|polynucleotide adenylyltransferase PcnB	| В начале гена|3428.52|
+|7|5|HPr family phosphocarrier protein	| В начале гена|8097.75|
+|8|5|DUF934 domain-containing protein	| Накрывает начало гена |932|
+|9|5|LysR family transcriptional regulator GigC	| Накрывает начало гена |743.19|
+
+
 # Выравнивания
 ![image](https://user-images.githubusercontent.com/22128700/173391168-b604aa82-8786-4892-bd62-93c14deebd6d.png)
 ![image](https://user-images.githubusercontent.com/22128700/173391220-31c7fd77-7259-4022-b441-17693caee762.png)
