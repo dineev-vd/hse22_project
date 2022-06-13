@@ -1,13 +1,13 @@
 # hse22_project
 
 # Геномы
-|Название вида|Кол-во последовательностей|Суммарная длина|Кол-во участков с Z-score >= 500
-|-|-|-|-|
-|Acinetobacter indicus|3|3084932|7122|
-|Acinetobacter schindleri|9|3337186|4629|
-|Acinetobacter soli|2|3520755|8230|
-|Acinetobacter bouvetii|1|3399245|14090|
-|Acinetobacter lwoffii|6|3528101|5541|
+|Название вида|Кол-во последовательностей|Суммарная длина|Кол-во участков с Z-score >= 500|Суммарная длина участков с Z-score >= 500|
+|-|-|-|-|-|
+|Acinetobacter indicus|3|3084932|7122|62603|
+|Acinetobacter schindleri|9|3337186|4629|121289|
+|Acinetobacter soli|2|3520755|8230|73231|
+|Acinetobacter bouvetii|1|3399245|14090|49154|
+|Acinetobacter lwoffii|6|3528101|5541|41570|
 
 # Гистограмма всех гомологов
 ![image](https://user-images.githubusercontent.com/22128700/173399044-41dde80f-2433-46c6-a2f2-73a581607bd3.png)
@@ -51,3 +51,26 @@
 ![image](https://user-images.githubusercontent.com/22128700/173391967-53967eb7-8137-46d2-ad48-7bdef2f719ce.png)
 ![image](https://user-images.githubusercontent.com/22128700/173391978-b725c78a-4034-46b1-bada-3a4672766cbe.png)
 ![image](https://user-images.githubusercontent.com/22128700/173391989-38875420-b28f-46a7-bef3-285133414889.png)
+
+# Бонус (квадруплексы)
+
+## Кластеры
+|Номер кластера|Кол-во геномов|Функция генов|Расположение относительно гена|Длина|Консервативность в гомологах|
+|-|-|-|-|-|-|
+|0|2|methylenetetrahydrofolate reductase \[NAD(P)H\]		| Перед геном |21|+|
+|1|2|nitronate monooxygenase		| В начале гена |29|+|
+|~~2~~|~~2~~|~~endonuclease domain-containing protein~~		| ???|~~22~~|-|
+|3|2|urease subunit gamma		| Перед геном|21|+|
+|4|2|urease subunit beta		| Перед геном |21|+|
+|5|2|putative DNA modification/repair radical SAM protein| Перед геном|29|+|
+
+## Визуализация
+![image](https://user-images.githubusercontent.com/22128700/173426463-c2510a39-df30-400c-a0f3-9511ec77a08f.png)
+![image](https://user-images.githubusercontent.com/22128700/173426479-be46ed23-6720-4cea-97c1-fb358ffd9ca8.png)
+![image](https://user-images.githubusercontent.com/22128700/173426504-e7fef418-18ef-4cbf-a1c4-c4b1afc65d93.png)
+![image](https://user-images.githubusercontent.com/22128700/173426513-3fb2cd58-f547-4261-9071-113db28afe5f.png)
+![image](https://user-images.githubusercontent.com/22128700/173426525-aab38d36-9d20-44fc-8c0d-d95e0adc0503.png)
+![image](https://user-images.githubusercontent.com/22128700/173426538-75eea363-40bf-4839-86c1-5f36007ecd74.png)
+
+
+
